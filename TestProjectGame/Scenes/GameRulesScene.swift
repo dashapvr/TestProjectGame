@@ -63,6 +63,7 @@ class GameRulesScene: SKScene {
             if touchesNode.name == "backButton" {
                 let transition = SKTransition.fade(withDuration: 0.5)
                 let menuScene = MenuScene(size: self.size)
+                menuScene.scaleMode = .aspectFill
                 self.view?.presentScene(menuScene, transition: transition)
             }
         }

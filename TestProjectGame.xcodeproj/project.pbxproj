@@ -22,6 +22,11 @@
 		1B8DB18129A812C8004FFC46 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DB18029A812C8004FFC46 /* SettingsScene.swift */; };
 		1B8DB18329A81513004FFC46 /* PrivacyPolicyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DB18229A81513004FFC46 /* PrivacyPolicyScene.swift */; };
 		1B8DB18529A8156A004FFC46 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DB18429A8156A004FFC46 /* PrivacyPolicyViewController.swift */; };
+		1BB38C4C29AB678F00E7451A /* LevelOneScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB38C4B29AB678F00E7451A /* LevelOneScene.swift */; };
+		1BB38C4E29AB681100E7451A /* LevelOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB38C4D29AB681100E7451A /* LevelOneViewController.swift */; };
+		1BB38C5029AB9BF100E7451A /* Knewave-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BB38C4F29AB9BF100E7451A /* Knewave-Regular.ttf */; };
+		1BB38C5529ABA7FB00E7451A /* LevelTwoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB38C5429ABA7FA00E7451A /* LevelTwoScene.swift */; };
+		1BB38C5729ABA84F00E7451A /* LevelTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB38C5629ABA84F00E7451A /* LevelTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,12 @@
 		1B8DB18029A812C8004FFC46 /* SettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
 		1B8DB18229A81513004FFC46 /* PrivacyPolicyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyScene.swift; sourceTree = "<group>"; };
 		1B8DB18429A8156A004FFC46 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		1BB38C4B29AB678F00E7451A /* LevelOneScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneScene.swift; sourceTree = "<group>"; };
+		1BB38C4D29AB681100E7451A /* LevelOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneViewController.swift; sourceTree = "<group>"; };
+		1BB38C4F29AB9BF100E7451A /* Knewave-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Knewave-Regular.ttf"; sourceTree = "<group>"; };
+		1BB38C5229AB9D2900E7451A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1BB38C5429ABA7FA00E7451A /* LevelTwoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwoScene.swift; sourceTree = "<group>"; };
+		1BB38C5629ABA84F00E7451A /* LevelTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +68,7 @@
 		1B2D351E29A789F000BAA696 = {
 			isa = PBXGroup;
 			children = (
+				1BB38C5129AB9BF800E7451A /* Font */,
 				1B2D352929A789F000BAA696 /* TestProjectGame */,
 				1B2D352829A789F000BAA696 /* Products */,
 			);
@@ -73,6 +85,7 @@
 		1B2D352929A789F000BAA696 /* TestProjectGame */ = {
 			isa = PBXGroup;
 			children = (
+				1BB38C5229AB9D2900E7451A /* Info.plist */,
 				1B2D352A29A789F000BAA696 /* AppDelegate.swift */,
 				1B2D354329A78A1900BAA696 /* Scenes */,
 				1B2D354229A78A1100BAA696 /* Controllers */,
@@ -99,6 +112,8 @@
 				1B8DB17C29A7FD52004FFC46 /* GameRulesViewController.swift */,
 				1B8DB17E29A812AE004FFC46 /* SettingsViewController.swift */,
 				1B8DB18429A8156A004FFC46 /* PrivacyPolicyViewController.swift */,
+				1BB38C4D29AB681100E7451A /* LevelOneViewController.swift */,
+				1BB38C5629ABA84F00E7451A /* LevelTwoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -111,8 +126,18 @@
 				1B8DB17A29A7FC77004FFC46 /* GameRulesScene.swift */,
 				1B8DB18029A812C8004FFC46 /* SettingsScene.swift */,
 				1B8DB18229A81513004FFC46 /* PrivacyPolicyScene.swift */,
+				1BB38C4B29AB678F00E7451A /* LevelOneScene.swift */,
+				1BB38C5429ABA7FA00E7451A /* LevelTwoScene.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1BB38C5129AB9BF800E7451A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1BB38C4F29AB9BF100E7451A /* Knewave-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +207,7 @@
 				1B2D353629A789F000BAA696 /* Main.storyboard in Resources */,
 				1B2D353829A789F200BAA696 /* Assets.xcassets in Resources */,
 				1B2D353B29A789F200BAA696 /* LaunchScreen.storyboard in Resources */,
+				1BB38C5029AB9BF100E7451A /* Knewave-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB38C4E29AB681100E7451A /* LevelOneViewController.swift in Sources */,
+				1BB38C5729ABA84F00E7451A /* LevelTwoViewController.swift in Sources */,
 				1B8DB17B29A7FC77004FFC46 /* GameRulesScene.swift in Sources */,
+				1BB38C5529ABA7FB00E7451A /* LevelTwoScene.swift in Sources */,
 				1B8DB18529A8156A004FFC46 /* PrivacyPolicyViewController.swift in Sources */,
 				1B8DB17929A7F231004FFC46 /* GameViewController.swift in Sources */,
 				1B8DB17D29A7FD52004FFC46 /* GameRulesViewController.swift in Sources */,
@@ -202,6 +231,7 @@
 				1B8DB18129A812C8004FFC46 /* SettingsScene.swift in Sources */,
 				1B8DB18329A81513004FFC46 /* PrivacyPolicyScene.swift in Sources */,
 				1B2D352B29A789F000BAA696 /* AppDelegate.swift in Sources */,
+				1BB38C4C29AB678F00E7451A /* LevelOneScene.swift in Sources */,
 				1B8DB17F29A812AE004FFC46 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestProjectGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestProjectGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

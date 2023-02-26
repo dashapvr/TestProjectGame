@@ -1,29 +1,31 @@
 //
-//  GameRulesViewController.swift
+//  LevelOneViewController.swift
 //  TestProjectGame
 //
-//  Created by Дарья Пивовар on 23.02.2023.
+//  Created by Дарья Пивовар on 26.02.2023.
 //
 
 import UIKit
 import SpriteKit
 import GameplayKit
 
-class GameRulesViewController: UIViewController {
-    
+class LevelOneViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        let gameRulesScene = GameRulesScene(size: CGSize(width: 2048, height: 1536))
+        let levelOneScene = LevelOneScene(size: CGSize(width: 2048, height: 1536))
         let skView = self.view as! SKView
         skView.showsFPS = true
         skView.showsNodeCount = true
         skView.ignoresSiblingOrder = true
-        gameRulesScene.scaleMode = .aspectFill
-        skView.presentScene(gameRulesScene)
-        
+        levelOneScene.scaleMode = .aspectFill
+        skView.presentScene(levelOneScene)
+       
     }
     
     override var prefersStatusBarHidden: Bool {
         return true
     }
 }
+
+

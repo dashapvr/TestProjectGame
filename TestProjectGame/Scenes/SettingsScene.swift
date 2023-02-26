@@ -82,6 +82,7 @@ class SettingsScene: SKScene {
         let alert = SKSpriteNode(color: .blue, size: CGSize(width: 100, height: 50))
         alert.name = "alert"
         alert.position = rateUsButton.position
+        alert.zPosition = 50
         addChild(alert)
         
         starRatingControl.settings.fillMode = .half
@@ -124,6 +125,7 @@ extension SettingsScene {
             if touchesNode.name == "backButton" {
                 let transition = SKTransition.fade(withDuration: 0.5)
                 let menuScene = MenuScene(size: self.size)
+                menuScene.scaleMode = .aspectFill
                 self.view?.presentScene(menuScene, transition: transition)
             }
         }
